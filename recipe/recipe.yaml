@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: cxxheaderparser
-  version: "1.7.4"
+  version: "1.8.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/cxxheaderparser-${{ version }}.tar.gz
-  sha256: e3fe7bfb1217dde795aadad866bb1cd538b684a256347a03875ee5b208e96a24
+  sha256: f9eaeeea440696434ad5ea745a55e780ead416d9bb8377dfb71357d9dd574fdc
 
 build:
   number: 0
